@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #245c2a;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 15px 25px;
+}
+
+.seccion-grafico {
+  text-align: center;
+  padding: 25px;
+}
+
+/* Fondo degradado para los dos Canvas */
+#miCanvas,
+#canvasPlanta {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border: 2px solid #c5d9b8;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #d9f0ff 0%, #f5f9ef 55%, #e4f0d4 100%);
+}
